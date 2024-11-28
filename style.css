@@ -1,0 +1,83 @@
+/* Estilo geral */
+body {
+    font-family: 'Comic Sans MS', 'Arial', sans-serif; /* Fonte descontraída */
+    background-color: #f0f0f0; /* Cinza claro */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Cor do texto */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Ocupa a altura total da viewport */
+    flex-direction: column; /* Permite organizar o conteúdo em coluna */
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #001f3f; /* Azul marinho */
+    color: white;
+    width: 100%;
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+/* Seções */
+section {
+    background-color: #001f3f; /* Azul marinho */
+    color: white;
+    margin: 20px 0; /* Espaçamento entre as seções */
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Inputs e botões */
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0074D9; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005bb5; /* Azul mais escuro */
+}
+
+/* Resultado */
+#resultado {
+    background-color: #f0f0f0; /* Cinza claro */
+    color: #001f3f; /* Azul marinho */
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #001f3f; /* Azul marinho */
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
